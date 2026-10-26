@@ -158,7 +158,6 @@ int main(void)
       Shoot_Test_DebugPrint();
     }
 #endif
-
     if ((uint32_t)(HAL_GetTick() - heartbeat_tick_ms) >= 500U)
     {
       heartbeat_tick_ms = HAL_GetTick();
