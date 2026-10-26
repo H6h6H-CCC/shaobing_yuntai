@@ -1,0 +1,9 @@
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/dji_motor.c:16:13:DJI_Motor_Parse	24	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/dji_motor.c:29:13:DJI_6020_Parse	24	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/dji_motor.c:42:6:HAL_CAN_RxFifo0MsgPendingCallback	56	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/dji_motor.c:68:19:DJI_Motor_SendChassisCurrent	72	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/dji_motor.c:101:19:DJI_6020_SendCurrent	72	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/dji_motor.c:133:6:DJI_Motor_GetFeedback	24	static,ignoring_inline_asm
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/dji_motor.c:151:9:DJI_Motor_IsOnline	40	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/dji_motor.c:160:6:DJI_6020_GetFeedback	24	static,ignoring_inline_asm
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/dji_motor.c:178:9:DJI_6020_IsOnline	40	static

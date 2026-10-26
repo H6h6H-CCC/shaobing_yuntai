@@ -1,0 +1,6 @@
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Application/shoot_test.c:44:13:Shoot_Test_ClearControl	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Application/shoot_test.c:56:20:Shoot_Test_ModeName	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Application/shoot_test.c:69:20:Shoot_Test_RemoteSourceName	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Application/shoot_test.c:82:6:Shoot_Test_Init	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Application/shoot_test.c:107:6:Shoot_Test_Update	56	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Application/shoot_test.c:189:6:Shoot_Test_DebugPrint	408	static

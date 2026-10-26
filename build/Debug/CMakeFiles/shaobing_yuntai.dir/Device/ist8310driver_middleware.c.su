@@ -1,0 +1,10 @@
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:27:6:ist8310_GPIO_init	4	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:31:6:ist8310_com_init	4	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:36:9:ist8310_IIC_read_single_reg	40	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:42:6:ist8310_IIC_write_single_reg	32	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:47:6:ist8310_IIC_read_muli_reg	32	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:51:6:ist8310_IIC_write_muli_reg	32	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:55:6:ist8310_delay_ms	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:60:6:ist8310_delay_us	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:65:6:ist8310_RST_H	8	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/ist8310driver_middleware.c:69:6:ist8310_RST_L	8	static

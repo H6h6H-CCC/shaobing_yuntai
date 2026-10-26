@@ -1,0 +1,11 @@
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:31:13:Remote_Control_Decode	56	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:60:6:Remote_Control_Init	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:79:6:Remote_Control_UART_IRQHandler	24	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:118:16:Remote_Control_ForwardFrameValid	24	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:136:13:Remote_Control_ForwardParse	24	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:187:6:Remote_Control_Link_UART_IRQHandler	24	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:222:9:Remote_Control_DataValid	24	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:248:16:Remote_Control_Select	96	static,ignoring_inline_asm
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:293:6:Remote_Control_Get	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:303:9:Remote_Control_IsOnline	48	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/remote_control.c:312:9:Remote_Control_GetSource	40	static

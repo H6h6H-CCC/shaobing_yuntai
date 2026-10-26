@@ -1,0 +1,856 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "shaobing_yuntai.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_directories",
+			"target_link_libraries",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/stm32cubemx/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 122,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 125,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 119,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 46,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "STM32_Drivers::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "USB_Device_Library::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stm32cubemx::@768a070a0fe75716b479"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3 -std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F407xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/BSP"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Algorithm"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Application"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Core/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../USB_DEVICE/App"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../USB_DEVICE/Target"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Middlewares/ST/ARM/DSP/Inc"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -x assembler-with-cpp -MMD -MP -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F407xx"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_HAL_DRIVER"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/BSP"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Algorithm"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Application"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Core/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../USB_DEVICE/App"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../USB_DEVICE/Target"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/cmake/stm32cubemx/../../Middlewares/ST/ARM/DSP/Inc"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				18
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "STM32_Drivers::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "USB_Device_Library::@768a070a0fe75716b479"
+		}
+	],
+	"id" : "shaobing_yuntai::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -fdata-sections -ffunction-sections -fstack-usage -O0 -g3",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -T \"D:/\u6ca7\u6d77\u7535\u63a7/\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/STM32F407XX_FLASH.ld\" --specs=nano.specs -Wl,-Map=shaobing_yuntai.map -Wl,--gc-sections -Wl,--print-memory-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LD:\\\u6ca7\u6d77\u7535\u63a7\\\u7535\u63a7\u8d44\u6599\u53ca\u4ee3\u7801\\code\\CangHai_RoboMaster_Electrical\\shaobing_yuntai\\cmake\\stm32cubemx\\..\\..\\Middlewares\\ST\\ARM\\DSP\\Lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-l:libarm_cortexM4lf_math.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 4,
+			"fragment" : ":libarm_cortexM4lf_math.a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "STM32_Drivers::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 4,
+			"fragment" : "m"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "USB_Device_Library::@768a070a0fe75716b479"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "stm32cubemx::@768a070a0fe75716b479"
+		}
+	],
+	"name" : "shaobing_yuntai",
+	"nameOnDisk" : "shaobing_yuntai.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				18
+			]
+		},
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/Target/usbd_conf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usb_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usbd_desc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "USB_DEVICE/App/usbd_cdc_if.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/spi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f4xx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/stm32f4xx_hal_msp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/sysmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "startup_stm32f407xx.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/bsp_can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/bsp_delay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "BSP/bsp_remote.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Device/dji_motor.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Device/remote_control.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Device/WIT_Gyro.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Device/BMI088driver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Device/BMI088Middleware.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Device/ist8310driver.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Device/ist8310driver_middleware.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Algorithm/pid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Application/shoot_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "Application/pitch_test.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f4xx.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/Debug/cmake/stm32cubemx/CMakeFiles/USB_Device_Library.dir/__/__/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c.obj",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

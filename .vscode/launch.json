@@ -1,0 +1,63 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CMSIS-DAP: OpenOCD 调试",
+            "type": "cortex-debug",
+            "request": "launch",
+            "cwd": "D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai",
+            "executable": "D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/build/Debug/shaobing_yuntai.elf",
+            "preLaunchTask": "CMake: build Debug",
+            "servertype": "openocd",
+            // 用相对路径下载，绕过 Windows GDB 对中文绝对路径的编码错误。
+            "overrideLaunchCommands": [
+                "monitor reset halt",
+                "load build/Debug/shaobing_yuntai.elf",
+                "monitor reset halt"
+            ],
+            "serverpath": "D:/openocd-20260302/OpenOCD-20260302-0.12.0/bin/openocd.exe",
+            "searchDir": [
+                "D:/openocd-20260302/OpenOCD-20260302-0.12.0/share/openocd/scripts"
+            ],
+            "configFiles": [
+                "interface/cmsis-dap.cfg",
+                "target/stm32f4x.cfg"
+            ],
+            // 本机 DAP 已在 200 kHz 完成实板烧录、校验和 main 断点验证。
+            "openOCDLaunchCommands": [
+                "adapter speed 200"
+            ],
+            "gdbPath": "C:/Users/abcd1/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gdb.exe",
+            // 在加载符号前禁用GDB自行打开源码，避免Windows路径转换损坏中文；源码由VSCode直接打开。
+            "debuggerArgs": ["-ex", "set source open off"],
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
+        },
+        {
+            "name": "ST-Link: SWD 调试",
+            "type": "cortex-debug",
+            "request": "launch",
+            "cwd": "D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai",
+            "executable": "D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/build/Debug/shaobing_yuntai.elf",
+            "preLaunchTask": "CMake: build Debug",
+            "servertype": "stlink",
+            // 保留 ST-Link 原有复位流程，仅将下载改成相对路径。
+            "overrideLaunchCommands": [
+                "monitor reset",
+                "load build/Debug/shaobing_yuntai.elf",
+                "monitor reset",
+                "monitor halt"
+            ],
+            "serverpath": "C:/Users/abcd1/AppData/Local/stm32cube/bundles/stlink-gdbserver/7.13.0+st.3/bin/ST-LINK_gdbserver.exe",
+            "stm32cubeprogrammer": "C:/Users/abcd1/AppData/Local/stm32cube/bundles/programmer/2.22.0+st.1/bin",
+            "gdbPath": "C:/Users/abcd1/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gdb.exe",
+            // 与DAP一致：保留原始中文源码路径，不经GDB文件系统转换。
+            "debuggerArgs": ["-ex", "set source open off"],
+            "device": "STM32F407IG",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none"
+        }
+    ]
+}

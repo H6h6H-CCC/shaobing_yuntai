@@ -1,0 +1,16 @@
+{
+    "cmake.cmakePath": "C:/Users/abcd1/AppData/Local/stm32cube/bundles/cmake/4.2.3+st.1/bin/cmake.exe",
+    "cmake.generator": "Ninja",
+    "cmake.sourceDirectory": "D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai",
+    // 避免扩展在中文工作目录自动配置；使用 Ctrl+Shift+B 执行 tasks.json 中的配置和编译。
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "cmake.automaticReconfigure": false,
+    "cmake.useCMakePresets": "always",
+    "stm32cube-ide-build-cmake.ignoreCubeProjectDiscovery": true,
+    "cmake.environment": {
+        "PATH": "C:/Users/abcd1/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin;C:/Users/abcd1/AppData/Local/stm32cube/bundles/ninja/1.13.2+st.1/bin;${env:PATH}"
+    },
+    "cortex-debug.armToolchainPath": "C:/Users/abcd1/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin",
+    "cortex-debug.gdbPath": "C:/Users/abcd1/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin/arm-none-eabi-gdb.exe"
+}

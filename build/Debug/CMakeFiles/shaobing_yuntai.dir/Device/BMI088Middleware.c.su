@@ -1,0 +1,9 @@
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/BMI088Middleware.c:7:6:BMI088_GPIO_init	4	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/BMI088Middleware.c:12:6:BMI088_com_init	4	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/BMI088Middleware.c:18:6:BMI088_delay_ms	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/BMI088Middleware.c:24:6:BMI088_delay_us	16	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/BMI088Middleware.c:32:6:BMI088_ACCEL_NS_L	8	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/BMI088Middleware.c:36:6:BMI088_ACCEL_NS_H	8	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/BMI088Middleware.c:41:6:BMI088_GYRO_NS_L	8	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/BMI088Middleware.c:45:6:BMI088_GYRO_NS_H	8	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Device/BMI088Middleware.c:50:9:BMI088_read_write_byte	32	static

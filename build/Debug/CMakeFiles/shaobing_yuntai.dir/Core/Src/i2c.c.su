@@ -1,0 +1,5 @@
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Core/Src/i2c.c:33:6:MX_I2C1_Init	8	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Core/Src/i2c.c:62:6:MX_I2C2_Init	8	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Core/Src/i2c.c:91:6:MX_I2C3_Init	8	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Core/Src/i2c.c:120:6:HAL_I2C_MspInit	64	static
+D:/沧海电控/电控资料及代码/code/CangHai_RoboMaster_Electrical/shaobing_yuntai/Core/Src/i2c.c:226:6:HAL_I2C_MspDeInit	16	static
